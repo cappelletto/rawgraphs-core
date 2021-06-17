@@ -16,6 +16,14 @@ const sequential = {
     value: d3ScaleChromatic.interpolateBlues,
     label: "Blues (sequential)",
   },
+  interpolateInferno: {
+    value: d3ScaleChromatic.interpolateInferno,
+    label: "Inferno (sequential)",
+  },
+  interpolateGreys: {
+    value: d3ScaleChromatic.interpolateGreys,
+    label: "Greys (sequential)",
+  },
   interpolateGreens: {
     value: d3ScaleChromatic.interpolateGreens,
     label: "Greens (sequential)",
@@ -23,6 +31,14 @@ const sequential = {
   interpolateReds: {
     value: d3ScaleChromatic.interpolateReds,
     label: "Reds (sequential)",
+  },
+  interpolateViridis: {
+    value: d3ScaleChromatic.interpolateViridis,
+    label: "Viridis (sequential)",
+  },
+  interpolateYlOrRd: {
+    value: d3ScaleChromatic.interpolateYlOrRd,
+    label: "YlOrRd (sequential)",
   },
 }
 
@@ -39,13 +55,6 @@ const diverging = {
     value: d3ScaleChromatic.interpolatePiYG,
     label: "PiYG (diverging)",
   },
-}
-
-const ordinal = {
-  schemeCategory10: {
-    value: d3ScaleChromatic.schemeCategory10,
-    label: "Category10 (ordinal)",
-  },
   interpolateTurbo: {
     value: d3ScaleChromatic.interpolateTurbo,
     label: "Interpolate Turbo (ordinal)",
@@ -53,6 +62,17 @@ const ordinal = {
   interpolateSpectral: {
     value: d3ScaleChromatic.interpolateSpectral,
     label: "Interpolate Spectral (ordinal)",
+  },
+}
+
+const ordinal = {
+  schemeCategory10: {
+    value: d3ScaleChromatic.schemeCategory10,
+    label: "Category10 (ordinal)",
+  },
+  schemeSet1: {
+    value: d3ScaleChromatic.schemeSet1,
+    label: "Set1 (ordinal)",
   },
 }
 /**
